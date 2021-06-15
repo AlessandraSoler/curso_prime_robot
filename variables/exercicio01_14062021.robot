@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Meu teste do exercício
+Documentation    Meu teste do exercício01
 
 *** Variables ***
 &{PESSOA}        nome=Alessandra    sobrenome=Soler    idade=33    naturalidade=Tupã    cor do cabelo=preto    altura=168
