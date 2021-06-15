@@ -6,15 +6,15 @@ Documentation    Meu teste do exercício01
 @{FRUTAS}        banana    maça    laranja    morango    kiwi
 
 *** Test Cases ***
-Meu teste imprimindo um dicinário de PESSOA
-    Logar no meu terminal uma PESSOA
+Meu teste imprimindo um dicionário de PESSOA01
+    Logar no meu terminal uma PESSOA01
 
-Meu teste imprimindo uma lista de FRUTAS02
-    Logar no meu terminal uma LISTA DE FRUTAS02
+Meu teste imprimindo uma lista de FRUTAS01
+    Logar no meu terminal uma LISTA DE FRUTAS01
 
 *** Keywords ***
 
-Logar no meu terminal uma PESSOA
+Logar no meu terminal uma PESSOA01
     Log To Console    ${\n}
     Log To Console    ${PESSOA}
     Log To Console    ${\n}
@@ -30,8 +30,14 @@ Logar no meu terminal uma PESSOA
     Log To Console    ${\n}
     Log To Console    ${PESSOA.altura} centímetros
 
-Logar no meu terminal uma LISTA DE FRUTAS02
+Logar no meu terminal uma LISTA DE FRUTAS01
     Log To Console    ${\n}
     Log To Console    ${FRUTAS}
-    Log Many          @{FRUTAS}
+    Log Many          ${FRUTAS}
+    Log To Console    ${FRUTAS[0]}
+    Log To Console    ${FRUTAS[1]}
+    Log To Console    ${FRUTAS[2]}
+    Log To Console    ${FRUTAS}[3]
+    Log To Console    ${FRUTAS}[4]
+
     
