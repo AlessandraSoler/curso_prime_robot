@@ -29,7 +29,7 @@ Logar no meu terminal uma PESSOA
     Log To Console    ${\n}
     Log To Console    ${PESSOA}
     Log To Console    ${\n}
-    Log To Console    ${PESSOA.nome} ${PESSOA.sobrenome} ${PESSOA.idade} anos!
+    Log To Console    ${PESSOA.nome}  ${PESSOA.sobrenome}  ${PESSOA.idade} anos!
 
 Logar no meu terminal uma LISTA DE FRUTAS
     ## Declaro localmente uma nova variável
