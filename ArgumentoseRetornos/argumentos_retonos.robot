@@ -27,5 +27,5 @@ Somar os números "${NUM_A}" e "${NUM_B}"
     ${RESULTADO}   Evaluate    ${NUM_A}+${NUM_B}
     [Return]    ${RESULTADO}
 
-
+##testando
     ##comando para executar no terminal robot ArgumentoseRetornos\argumentos_retonos.robot
