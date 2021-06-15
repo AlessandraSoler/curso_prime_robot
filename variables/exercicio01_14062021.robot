@@ -40,4 +40,4 @@ Logar no meu terminal uma LISTA DE FRUTAS01
     Log To Console    ${FRUTAS}[3]     ##MODO2
     Log To Console    ${FRUTAS}[4]
 
-    
+    ## comando para executar no terminal    robot -t "Meu teste imprimindo um dicionário de PESSOA01" variables

@@ -40,3 +40,6 @@ Logar no meu terminal uma LISTA DE FRUTAS
     Log To Console    ${FRUTAS}
     Log Many          @{FRUTAS}
     Log To Console    ${nova_fruta}-${outra_fruta}
+
+
+## comando para executar no terminal    robot variables

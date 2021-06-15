@@ -26,3 +26,6 @@ Somar os números "${NUM_A}" e "${NUM_B}"
     Log To Console    ${\n}Estou somando os números embutidos: ${NUM_A}+${NUM_B}
     ${RESULTADO}   Evaluate    ${NUM_A}+${NUM_B}
     [Return]    ${RESULTADO}
+
+
+    ##comando para executar no terminal robot ArgumentoseRetornos\argumentos_retonos.robot
