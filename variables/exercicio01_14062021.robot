@@ -36,8 +36,8 @@ Logar no meu terminal uma LISTA DE FRUTAS01
     Log Many          ${FRUTAS}
     Log To Console    ${FRUTAS[0]}
     Log To Console    ${FRUTAS[1]}
-    Log To Console    ${FRUTAS[2]}
-    Log To Console    ${FRUTAS}[3]
+    Log To Console    ${FRUTAS[2]}     ##MODO1
+    Log To Console    ${FRUTAS}[3]     ##MODO2
     Log To Console    ${FRUTAS}[4]
 
     
