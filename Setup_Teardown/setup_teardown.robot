@@ -45,3 +45,4 @@ Somar os números "${NUM_A}" e "${NUM_B}"
     [Return]    ${RESULTADO}
 
     ## comando para executar no terminal robot .\Setup_Teardown\setup_teardown.robot
+    ##para testar
