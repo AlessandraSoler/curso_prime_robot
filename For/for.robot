@@ -22,7 +22,7 @@ Imprimir de ${A} a ${B}
 
 Imprimir uma lista
     FOR    ${fruta}    IN    @{FRUTAS}
-        Log To Console    O País da vez é: ${fruta}
+        Log To Console    A fruta da vez é: ${fruta}
     END
 
     ## comando para executar no terminal robot .\For\for.robot

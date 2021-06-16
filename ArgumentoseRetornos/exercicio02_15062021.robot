@@ -13,3 +13,6 @@ Testar a criação de e-mails
 Criar e-mail
     [Arguments]    ${nome}    ${sobrenome}    ${idade}
     [Return]        ${nome}_${sobrenome}_${idade}@robot.com
+
+
+##comando para executar no terminal     robot .\ArgumentoseRetornos\exercicio02_15062021.robot
