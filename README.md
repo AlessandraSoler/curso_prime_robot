@@ -17,3 +17,18 @@ Instalando o Robot Framework: pip install -U robotframework
 
 
 para executar no terminal: robot variables (nome da pasta)
+
+instalando qualquer library: pip instal -U (nome da library)
+
+para comentar e descomentar várias linhas: CTRL+K+C
+
+pip install --upgrade robotframework-appiumlibrary
+
+Record de teste para Robot: https://youtu.be/lT5eQmzdgIA
+
+leandro https://github.com/leandroalrodrigues/prime_experts_jun2021
+cristian klein https://github.com/cristianklen/prime_experts.git
+
+https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
+
+

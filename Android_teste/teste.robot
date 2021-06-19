@@ -2,10 +2,10 @@
 
 Documentation    automatizando o app do youtube (PrimeExperts)
 Library    AppiumLibrary
-Resource    ./variables.robot
+Resource    ./variables2.robot
 
 *** Test Cases ***
-Search content
+Testando o Android Mobile
     Open Youtube
     Buscar o canal     Adrenaline
     Navegar pelo menu Playlist
@@ -44,3 +44,7 @@ Navegar por todos os botões da barra de Menus do YouTube
     Click Element                           accessibility_id=Trending
     Click Element                           accessibility_id=Subscriptions
     Click Element                           accessibility_id=Notifications
+    Click Element                           accessibility_id=Library
+    Close Application
+
+    ## comando para executar no terminal robot -d .\logs .\Android_teste\
