@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210618 21:34:57.067" rpa="false" schemaversion="2">
+<suite id="s1" name="Android teste" source="C:\Users\lekas\OneDrive\Área de Trabalho\Curso_Prime_Codigo\curso_prime_robot\Android_teste">
+<suite id="s1-s1" name="Teste" source="C:\Users\lekas\OneDrive\Área de Trabalho\Curso_Prime_Codigo\curso_prime_robot\Android_teste\teste.robot">
+<test id="s1-s1-t1" name="Search content">
+<kw name="Open Youtube">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20210618 21:34:57.378" endtime="20210618 21:35:14.501"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>${BANNER_ICON}</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20210618 21:35:14.501" endtime="20210618 21:35:17.472"/>
+</kw>
+<status status="PASS" starttime="20210618 21:34:57.378" endtime="20210618 21:35:17.472"/>
+</kw>
+<kw name="Buscar o canal">
+<msg timestamp="20210618 21:35:17.474" level="FAIL">Keyword 'Buscar o canal' expected 1 argument, got 0.</msg>
+<status status="FAIL" starttime="20210618 21:35:17.472" endtime="20210618 21:35:17.474"/>
+</kw>
+<kw name="Navegar pelo menu Playlist">
+<status status="NOT RUN" starttime="20210618 21:35:17.477" endtime="20210618 21:35:17.477"/>
+</kw>
+<kw name="Selecionar a primeira playlist do canal">
+<status status="NOT RUN" starttime="20210618 21:35:17.478" endtime="20210618 21:35:17.478"/>
+</kw>
+<status status="FAIL" starttime="20210618 21:34:57.377" endtime="20210618 21:35:17.479">Keyword 'Buscar o canal' expected 1 argument, got 0.</status>
+</test>
+<doc>automatizando o app do youtube (PrimeExperts)</doc>
+<status status="FAIL" starttime="20210618 21:34:57.099" endtime="20210618 21:35:17.482"/>
+</suite>
+<status status="FAIL" starttime="20210618 21:34:57.070" endtime="20210618 21:35:17.486"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Android teste">Android teste</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Teste">Android teste.Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
