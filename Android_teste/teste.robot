@@ -16,7 +16,7 @@ Testando o Android Mobile
 
 Open Youtube
     Open Application                    ${REMOTE_URL}    platformName=${PLATFORM_NAME}    platformVersion=${PLATFORM_VERSION}
-    ...                                 deviceName=${DEVICE_NAME}    appPackage=${APP_PACKAGE}    appPackage=${APP_PACKAGE}    appActivity=${APP_ACTIVITY}
+    ...                                 deviceName=${DEVICE_NAME}    appPa0ckage=${APP_PACKAGE}    appPackage=${APP_PACKAGE}    appActivity=${APP_ACTIVITY}
     ...                                 automationName=${AUTOMATION_NAME}
     Wait Until Page Contains Element    ${BANNER_ICON}    20
 

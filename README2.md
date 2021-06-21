@@ -22,6 +22,9 @@ adb shell am start -W -n com.myfixedpackage/.myfixedactivity.MainActivity -S -a 
 •emulator @nome_do_device
 •emulator –list-avds
 
+o meu fica emulator @Teste_pixel_09
+
+
 ----- comandos robot selenium
 
 Select From List By Index
