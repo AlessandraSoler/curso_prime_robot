@@ -1,7 +1,7 @@
 *** Settings ***
 
 Documentation    Suíte de testes Web - Site: http://automationpractice.com
-Resource          resourceWebTesting.robot
+Resource          resourceWebTeste.robot
 Suite Setup      Abrir o Navegador
 Suite Teardown   Fechar o Navegador
 

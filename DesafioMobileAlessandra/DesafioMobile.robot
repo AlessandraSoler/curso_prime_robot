@@ -1,20 +1,20 @@
 *** Settings ***
 
-Documentation       Desafio Mobile da PrimeExperts feito pela Alessandra Soler
-Library             AppiumLibrary
-Resource            ./VariablesMobile.robot
+Documentation        Desafio Mobile da PrimeExperts feito pela Alessandra Soler
+Library              AppiumLibrary
+Resource             ./VariablesMobile.robot
  
 *** Test Cases ***
 Caso de teste 01
     Abrir o Youtube
-    Buscar o canal     Adrenaline
+    Buscar o canal        Adrenaline
     Navegar pelo menu Playlist
     Selecionar a primeira playlist do canal
     Navegar por todos os botões da barra de menus do YouTube
  
 Caso de Teste 02: Logar no YouTube
     Abrir o Youtube
-    Logar no aplicativo com a conta    projetomobilealessandra@gmail.com
+    Logar no aplicativo com a conta        projetomobilealessandra@gmail.com
     Entrar no menu “Explorar”
 #    Usar swipe de tela até o 10 item da tela
 #    Clicar no vídeo
@@ -35,23 +35,23 @@ Abrir o Youtube
     Wait Until Page Contains Element        ${BANNER_ICON}    20
  
 Buscar o canal
-    [Arguments]                         ${content}
+    [Arguments]                             ${content}
  
-    Wait Until Page Contains Element    ${BTN_SEARCH}    
-    Click Element                       ${BTN_SEARCH}
-    Wait Until Page Contains Element    ${INPUT_SEARCH}    
-    Input Text                          ${INPUT_SEARCH}    ${content}
-    Press Keycode                       66
-    Wait Until Page Contains Element    ${CHANNEL_NAME}
-    Click Element                       ${CHANNEL_NAME}
+    Wait Until Page Contains Element        ${BTN_SEARCH}    
+    Click Element                           ${BTN_SEARCH}
+    Wait Until Page Contains Element        ${INPUT_SEARCH}    
+    Input Text                              ${INPUT_SEARCH}    ${content}
+    Press Keycode                           66
+    Wait Until Page Contains Element        ${CHANNEL_NAME}
+    Click Element                           ${CHANNEL_NAME}
 
 Navegar pelo menu Playlist
-    Wait Until Page Contains Element    ${PLAYLISTS}    20
-    Click Element                       ${PLAYLISTS}
+    Wait Until Page Contains Element        ${PLAYLISTS}    20
+    Click Element                           ${PLAYLISTS}
 
 Selecionar a primeira playlist do canal
-    Wait Until Page Contains Element    ${CHOOSE_E3}
-    Click Element                       ${CHOOSE_E3}
+    Wait Until Page Contains Element        ${CHOOSE_E3}
+    Click Element                           ${CHOOSE_E3}
 
 Navegar por todos os botões da barra de menus do YouTube
     Click Element                           ${HOME_BTN}
@@ -121,3 +121,5 @@ Deslogar
 Sair do Youtube
     Sleep                    5s
     Close Application        
+
+     ## comando para executar no terminal robot -d .\logs .\DesafioMobileAlessandra\
