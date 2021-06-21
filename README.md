@@ -26,9 +26,6 @@ pip install --upgrade robotframework-appiumlibrary
 
 Record de teste para Robot: https://youtu.be/lT5eQmzdgIA
 
-leandro https://github.com/leandroalrodrigues/prime_experts_jun2021
-cristian klein https://github.com/cristianklen/prime_experts.git
-
 https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
 
 
